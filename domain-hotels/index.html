@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="https://placehold.co/256x256" type="image/x-icon" />
+    <link rel="stylesheet" href="/hotels-src/style.css" />
+    <link rel="stylesheet" href="/hotels-src/main.css" />
+  </head>
+
+  <body class="bg-gradient-to-bl from-black via-[#331021] to-[#210A16]">
+    <!-- Hero Section -->
+    <section class="relative min-h-screen overflow-hidden bg-[#210A16]">
+      <!-- Split background design -->
+      <div class="absolute inset-0 flex">
+        <div class="w-1/2 bg-[#210A16]"></div>
+        <div class="w-1/2 bg-cover bg-center" style="background-image: url('https://placehold.co/1920x1080')">
+          <div class="absolute inset-0 bg-gradient-to-l from-transparent via-[#210A16]/80 to-[#210A16]"></div>
+        </div>
+      </div>
+
+      <!-- Animated lines -->
+      <div class="absolute inset-0">
+        <div class="absolute left-1/2 top-0 h-full w-[1px] bg-gradient-to-b from-[#E04592]/0 via-[#E04592]/20 to-[#E04592]/0"></div>
+        <div class="absolute left-0 top-1/3 h-[1px] w-full bg-gradient-to-r from-[#E04592]/0 via-[#E04592]/20 to-[#E04592]/0"></div>
+        <div class="absolute bottom-1/3 left-0 h-[1px] w-full bg-gradient-to-r from-[#E04592]/0 via-[#E04592]/20 to-[#E04592]/0"></div>
+      </div>
+
+      <!-- Content container -->
+      <div class="container relative z-10 mx-auto flex min-h-screen items-center px-6 py-12">
+        <div class="grid items-center gap-12 lg:grid-cols-2 lg:gap-24">
+          <!-- Left content -->
+          <div class="space-y-8">
+            <!-- Brand tag -->
+            <div class="inline-flex items-center space-x-3 rounded-full bg-[#E04592]/10 px-4 py-2">
+              <span class="h-2 w-2 animate-pulse rounded-full bg-[#E04592]"></span>
+              <span class="text-sm font-semibold tracking-wider text-[#E04592]">[CHANGE_NAME]</span>
+            </div>
+
+            <!-- Main heading -->
+            <h1 class="space-y-4">
+              <span class="block text-4xl font-bold leading-none text-white sm:text-5xl lg:text-6xl xl:text-7xl">Where Hotel Charm</span>
+              <span class="block text-4xl font-bold leading-none text-[#E04592] [text-shadow:_0_0_30px_rgba(14,165,233,0.3)] sm:text-5xl lg:text-6xl xl:text-7xl">Meets Casino Resort Thrill</span>
+            </h1>
+
+            <!-- Description -->
+            <p class="max-w-xl text-lg leading-relaxed text-gray-200">
+              Enter a hotel and resort playground where casino tables buzz with energy, sophisticated design enhances every stay, and resort-style services elevate your casino adventure.
+            </p>
+
+            <!-- Stats grid -->
+            <div class="grid grid-cols-3 gap-6 py-8">
+              <div class="space-y-2">
+                <span class="block text-3xl font-bold text-[#E04592]">7</span>
+                <span class="block text-sm text-gray-200">Exclusive Hotel &amp; Casino Locations</span>
+              </div>
+              <div class="space-y-2">
+                <span class="block text-3xl font-bold text-[#E04592]">24/7</span>
+                <span class="block text-sm text-gray-200">Resort &amp; Hotel Concierge Service</span>
+              </div>
+              <div class="space-y-2">
+                <span class="block text-3xl font-bold text-[#E04592]">5★</span>
+                <span class="block text-sm text-gray-200">Award-Winning Casino Resort</span>
+              </div>
+            </div>
+
+            <!-- CTA buttons -->
+            <div class="flex flex-wrap gap-4">
+              <a href="#hotels" class="rounded-lg bg-[#E04592] px-8 py-4 font-semibold text-white transition-colors duration-300 hover:bg-[#0284c7]">Discover Hotel, Casino &amp; Resort Venues</a>
+              <a href="#hotels" class="rounded-lg border border-[#E04592] px-8 py-4 font-semibold text-[#E04592] backdrop-blur transition-colors duration-300 hover:bg-[#E04592]/10">
+                Secure Your Hotel, Casino &amp; Resort Stay
+              </a>
+            </div>
+          </div>
+
+          <!-- Right content -->
+          <div class="relative hidden lg:block">
+            <!-- Feature cards -->
+            <div class="space-y-6">
+              <div class="transform rounded-xl bg-[#40142A] p-6 transition-transform duration-300 hover:-translate-y-1">
+                <h3 class="mb-2 font-semibold text-[#E04592]">Signature Hotel Suites</h3>
+                <p class="text-gray-200">Experience the comfort of our hotel&apos;s signature suites, designed as a resort haven with direct access to the casino floor.</p>
+              </div>
+              <div class="ml-12 transform rounded-xl bg-[#40142A] p-6 transition-transform duration-300 hover:-translate-y-1">
+                <h3 class="mb-2 font-semibold text-[#E04592]">Gourmet Casino Resort Hotel Dining</h3>
+                <p class="text-gray-200">Savour inventive dishes by top chefs in our hotel restaurant, blending resort ambience with the excitement of a casino environment.</p>
+              </div>
+              <div class="transform rounded-xl bg-[#40142A] p-6 transition-transform duration-300 hover:-translate-y-1">
+                <h3 class="mb-2 font-semibold text-[#E04592]">High-Stakes Casino Gaming at Our Hotel Resort</h3>
+                <p class="text-gray-200">Feel the thrill of high-stakes gaming at our casino tables, steps from your hotel room in this all-in-one resort destination.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hotels Section -->
+    <section id="hotels" class="mx-auto max-w-7xl px-4 pb-24">
+      <header class="mb-16 animate-[fadeIn_0.5s_ease-in-out_forwards] pt-12 text-center lg:mb-32 lg:pt-24">
+        <h2 class="mb-4 text-4xl font-bold text-gray-200">Top Boutique Hotels &amp; Casino Resort Experiences in Amsterdam</h2>
+        <p class="mx-auto max-w-3xl text-lg text-gray-300">
+          Explore our handpicked collection of Amsterdam&apos;s finest hotels and resorts, where stylish stays are paired with exhilarating casino entertainment, gourmet dining, and rejuvenating spa
+          and wellness retreats. Discover bespoke casino resort packages crafted for the most discerning guests.
+        </p>
+      </header>
+
+      <!-- Cards grid -->
+      <div class="grid gap-12 lg:grid-cols-1">
+        <!-- 01 – The Dylan Amsterdam Boutique Hotel & Canal-Side Resort -->
+        <div class="group animate-[slideUp_0.5s_ease-out-forwards] rounded-xl bg-white/75 shadow-lg transition-all duration-500">
+          <div class="flex flex-col overflow-hidden lg:flex-row-reverse">
+            <div class="relative h-80 overflow-hidden lg:h-auto lg:w-5/12">
+              <img src="https://placehold.co/1920x1080" alt="The Dylan Amsterdam" class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110" />
+              <div class="absolute left-0 top-0 h-full w-full bg-gradient-to-t from-black/40 to-transparent opacity-40 transition-opacity duration-300 group-hover:opacity-60"></div>
+            </div>
+            <div class="p-8 transition-all duration-300 lg:w-7/12 lg:p-12">
+              <div class="mb-4 flex items-center space-x-4">
+                <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-50 font-bold text-[#9C3066]">01</span>
+                <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">The Dylan Amsterdam Boutique Hotel &amp; Canal-Side Resort</h2>
+              </div>
+              <div class="mt-8 space-y-8">
+                <section class="transform transition-all duration-300 hover:translate-x-1">
+                  <h3 class="mb-3 text-sm font-medium uppercase tracking-wider text-gray-600">Overall Information</h3>
+                  <p class="text-gray-600">
+                    Set along the Keizersgracht canal, The Dylan Amsterdam is a boutique hotel retreat offering bespoke concierge service, a tranquil garden courtyard, and curated city experiences.
+                    Guests can enjoy exclusive casino excursions to Holland Casino and unwind in the resort-style spa.
+                  </p>
+                </section>
+                <section class="transform transition-all duration-300 hover:translate-x-1">
+                  <h3 class="mb-3 text-sm font-medium uppercase tracking-wider text-gray-600">Rooms and Amenities</h3>
+                  <p class="text-gray-600">
+                    Featuring 40 individually styled hotel rooms and suites, each space boasts handcrafted furniture, Nespresso machines, and complimentary bicycles. Guests indulge in resort-level
+                    amenities, from private boat tours to bespoke wellness treatments, before heading out for casino evenings with VIP access.
+                  </p>
+                </section>
+                <section class="transform transition-all duration-300 hover:translate-x-1">
+                  <h3 class="mb-3 text-sm font-medium uppercase tracking-wider text-gray-600">Dining Options</h3>
+                  <p class="text-gray-600">
+                    Restaurant Vinkeles, housed in an 18th-century bakery, serves Michelin-acclaimed French cuisine, while the Lounge Bar offers artisanal cocktails and curated wine flights in a cosy
+                    setting. The hotel&apos;s signature restaurant also presents resort-inspired cocktails perfect for pre-casino gatherings.
+                  </p>
+                </section>
+                <a
+                  href="https://www.dylanamsterdam.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="relative inline-flex transform items-center justify-center overflow-hidden rounded-lg bg-[#BE3B7C] px-6 py-3 text-white transition-all duration-300 hover:-translate-y-[2px] hover:bg-[#9C3066]"
+                >
+                  Visit Official Website
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 02 – Sofitel Legend The Grand Amsterdam Casino -->
+        <div class="group animate-[slideUp_0.5s_ease-out-forwards] rounded-xl bg-white/75 shadow-lg transition-all duration-500 hover:shadow-xl">
+          <div class="flex flex-col overflow-hidden lg:flex-row">
+            <div class="relative h-80 overflow-hidden lg:h-auto lg:w-5/12">
+              <img src="https://placehold.co/1920x1080" alt="Sofitel Legend The Grand Amsterdam" class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110" />
+              <div class="absolute left-0 top-0 h-full w-full bg-gradient-to-t from-black/40 to-transparent opacity-40 transition-opacity duration-300 group-hover:opacity-60"></div>
+            </div>
+
+            <div class="p-8 transition-all duration-300 lg:w-7/12 lg:p-12">
+              <div class="mb-4 flex items-center space-x-4">
+                <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-50 font-bold text-[#9C3066]">02</span>
+                <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">Sofitel Legend The Grand Amsterdam Casino</h2>
+              </div>
+
+              <div class="mt-8 space-y-8">
+                <section class="transform transition-all duration-300 hover:translate-x-1">
+                  <h3 class="mb-3 text-sm font-medium uppercase tracking-wider text-gray-600">Overall Information</h3>
+                  <p class="text-gray-600">
+                    A former royal residence in the heart of Amsterdam, offering exclusive access to the adjacent Holland Casino. The hotel combines French luxury with Dutch heritage in a 17th-century
+                    setting. This resort property redefines boutique hospitality, offering guests a refined casino atmosphere within a heritage hotel setting.
+                  </p>
+                </section>
+
+                <section class="transform transition-all duration-300 hover:translate-x-1">
+                  <h3 class="mb-3 text-sm font-medium uppercase tracking-wider text-gray-600">Rooms and Amenities</h3>
+                  <p class="text-gray-600">
+                    177 sophisticated rooms and suites feature butler service, Hermès amenities, and canal views. The Canal House Suites include private entrances and complimentary casino credit.
+                  </p>
+                </section>
+
+                <section class="transform transition-all duration-300 hover:translate-x-1">
+                  <h3 class="mb-3 text-sm font-medium uppercase tracking-wider text-gray-600">Dining Options</h3>
+                  <p class="text-gray-600">
+                    Bridges restaurant offers Michelin-starred dining with elegant hotel surroundings, while Library 'Or' serves afternoon tea in a resort-style lounge. The Flying Dutchman bar
+                    specializes in rare spirits and signature cocktails. The bar&apos;s resort-themed gaming nights feature live casino tables under ambient lighting.
+                  </p>
+                </section>
+
+                <a
+                  href="https://www.sofitel-legend-thegrand.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="relative inline-flex transform items-center justify-center overflow-hidden rounded-lg bg-[#BE3B7C] px-6 py-3 text-white transition-all duration-300 hover:-translate-y-[2px] hover:bg-[#9C3066]"
+                >
+                  Visit Official Website
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 03 – InterContinental Amstel Amsterdam Casino -->
+        <div class="group animate-[slideUp_0.5s_ease-out-forwards] rounded-xl bg-white/75 shadow-lg transition-all duration-500 hover:shadow-xl">
+          <div class="flex flex-col overflow-hidden lg:flex-row-reverse">
+            <div class="relative h-80 overflow-hidden lg:h-auto lg:w-5/12">
+              <img src="https://placehold.co/1920x1080" alt="InterContinental Amstel Amsterdam" class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110" />
+              <div class="absolute left-0 top-0 h-full w-full bg-gradient-to-t from-black/40 to-transparent opacity-40 transition-opacity duration-300 group-hover:opacity-60"></div>
+            </div>
+            <div class="p-8 transition-all duration-300 lg:w-7/12 lg:p-12">
+              <div class="mb-4 flex items-center space-x-4">
+                <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-50 font-bold text-[#9C3066]">03</span>
+                <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">InterContinental Amstel Amsterdam Casino</h2>
+              </div>
+              <div class="mt-8 space-y-8">
+                <section class="transform transition-all duration-300 hover:translate-x-1">
+                  <h3 class="mb-3 text-sm font-medium uppercase tracking-wider text-gray-600">Overall Information</h3>
+                  <p class="text-gray-600">
+                    At this 19th-century palace on the Amstel River, the iconic hotel and resort offers dedicated access to Holland Casino Amsterdam. With river-view terraces and elegant historic
+                    décor, guests immerse themselves in a truly regal casino and spa experience. Riverside resort amenities blend heritage charm with modern indulgence.
+                  </p>
+                </section>
+                <section class="transform transition-all duration-300 hover:translate-x-1">
+                  <h3 class="mb-3 text-sm font-medium uppercase tracking-wider text-gray-600">Rooms and Amenities</h3>
+                  <p class="text-gray-600">
+                    79 opulent rooms and suites feature authentic period details and modern luxuries. Royal River View Suites include private butler service and VIP casino membership, ensuring a
+                    seamless resort experience.
+                  </p>
+                </section>
+                <section class="transform transition-all duration-300 hover:translate-x-1">
+                  <h3 class="mb-3 text-sm font-medium uppercase tracking-wider text-gray-600">Dining Options</h3>
+                  <p class="text-gray-600">
+                    La Rive restaurant holds a Michelin star, while the Amstel Brasserie offers casual riverside dining. The iconic Amstel Bar serves rare spirits and signature cocktails, setting a
+                    refined hotel dining scene within the resort's grand ballroom ambience. Amstel Bar pairs rare spirits with casino tasting menus for a truly indulgent experience.
+                  </p>
+                </section>
+                <a
+                  href="https://www.ihg.com/intercontinental/hotels/us/en/amsterdam/amsha/hoteldetail"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="relative inline-flex transform items-center justify-center overflow-hidden rounded-lg bg-[#BE3B7C] px-6 py-3 text-white transition-all duration-300 hover:-translate-y-[2px] hover:bg-[#9C3066]"
+                >
+                  Visit Official Website
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 04 – Amsterdam Marriott Hotel Casino -->
+        <div class="group animate-[slideUp_0.5s_ease-out-forwards] rounded-xl bg-white/75 shadow-lg transition-all duration-500 hover:shadow-xl">
+          <div class="flex flex-col overflow-hidden lg:flex-row">
+            <div class="relative h-80 overflow-hidden lg:h-auto lg:w-5/12">
+              <img src="https://placehold.co/1920x1080" alt="Amsterdam Marriott Hotel" class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110" />
+              <div class="absolute left-0 top-0 h-full w-full bg-gradient-to-t from-black/40 to-transparent opacity-40 transition-opacity duration-300 group-hover:opacity-60"></div>
+            </div>
+
+            <div class="p-8 transition-all duration-300 lg:w-7/12 lg:p-12">
+              <div class="mb-4 flex items-center space-x-4">
+                <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-50 font-bold text-[#9C3066]">04</span>
+                <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">Amsterdam Marriott Hotel Casino</h2>
+              </div>
+
+              <div class="mt-8 space-y-8">
+                <section class="transform transition-all duration-300 hover:translate-x-1">
+                  <h3 class="mb-3 text-sm font-medium uppercase tracking-wider text-gray-600">Overall Information</h3>
+                  <p class="text-gray-600">
+                    Centrally located near Leidseplein, with direct access to Holland Casino Amsterdam West. The hotel offers modern luxury with traditional Dutch hospitality and exclusive gaming
+                    packages. Guests of this modern hotel resort enjoy curated casino packages and exclusive lounge privileges.
+                  </p>
+                </section>
+
+                <section class="transform transition-all duration-300 hover:translate-x-1">
+                  <h3 class="mb-3 text-sm font-medium uppercase tracking-wider text-gray-600">Rooms and Amenities</h3>
+                  <p class="text-gray-600">
+                    396 renovated rooms feature city views and premium amenities. Guests can book resort-inclusive packages featuring casino shuttle transfers. M Club access rooms include exclusive
+                    lounge benefits and complimentary casino transfers.
+                  </p>
+                </section>
+
+                <section class="transform transition-all duration-300 hover:translate-x-1">
+                  <h3 class="mb-3 text-sm font-medium uppercase tracking-wider text-gray-600">Dining Options</h3>
+                  <p class="text-gray-600">
+                    Midtown Grill showcases the hotel's premium steak cuts, while Sorel's Bar and Lounge offers international cuisine and craft cocktails with views of the bustling city centre.
+                    Sorel&apos;s Bar and Lounge hosts casino-inspired evenings offering specialty gaming cocktails.
+                  </p>
+                </section>
+
+                <a
+                  href="https://www.marriott.com/en-us/hotels/amsnt-amsterdam-marriott-hotel"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="relative inline-flex transform items-center justify-center overflow-hidden rounded-lg bg-[#BE3B7C] px-6 py-3 text-white transition-all duration-300 hover:-translate-y-[2px] hover:bg-[#9C3066]"
+                >
+                  Visit Official Website
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 05 – Holland Casino Amsterdam Centre & NH Collection Grand Hotel Krasnapolsky -->
+        <div class="group animate-[slideUp_0.5s_ease-out-forwards] rounded-xl bg-white/75 shadow-lg transition-all duration-500 hover:shadow-xl">
+          <div class="flex flex-col overflow-hidden lg:flex-row-reverse">
+            <div class="relative h-80 overflow-hidden lg:h-auto lg:w-5/12">
+              <img src="https://placehold.co/1920x1080" alt="NH Collection Grand Hotel Krasnapolsky" class="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-110" />
+              <div class="absolute left-0 top-0 h-full w-full bg-gradient-to-t from-black/40 to-transparent opacity-40 transition-opacity duration-300 group-hover:opacity-60"></div>
+            </div>
+
+            <div class="p-8 transition-all duration-300 lg:w-7/12 lg:p-12">
+              <div class="mb-4 flex items-center space-x-4">
+                <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-50 font-bold text-[#9C3066]">05</span>
+                <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">NH Collection Grand Hotel Casino Krasnapolsky</h2>
+              </div>
+
+              <div class="mt-8 space-y-8">
+                <section class="transform transition-all duration-300 hover:translate-x-1">
+                  <h3 class="mb-3 text-sm font-medium uppercase tracking-wider text-gray-600">Overall Information</h3>
+                  <p class="text-gray-600">
+                    Located in the heart of Amsterdam on Dam Square, this historic hotel offers direct access to Holland Casino Amsterdam Centre. The iconic building combines 19th-century grandeur
+                    with contemporary luxury. As a premier resort destination, this hotel seamlessly combines historic charm with an elevated casino experience.
+                  </p>
+                </section>
+
+                <section class="transform transition-all duration-300 hover:translate-x-1">
+                  <h3 class="mb-3 text-sm font-medium uppercase tracking-wider text-gray-600">Rooms and Amenities</h3>
+                  <p class="text-gray-600">
+                    396 rooms and suites feature stunning city views, premium bedding, and modern amenities. The Royal Suite offers private butler service and VIP casino access. Guests enjoy
+                    complimentary access to the resort's wellness centre.
+                  </p>
+                </section>
+
+                <section class="transform transition-all duration-300 hover:translate-x-1">
+                  <h3 class="mb-3 text-sm font-medium uppercase tracking-wider text-gray-600">Dining Options</h3>
+                  <p class="text-gray-600">
+                    The Grand Café Krasnapolsky serves refined Dutch cuisine, while The White Room by Jacob Jan Boerma holds a Michelin star. Bar The Tailor offers craft cocktails in a vibrant
+                    casino-style atmosphere.
+                  </p>
+                </section>
+
+                <a
+                  href="https://www.nh-hotels.com/hotel/nh-collection-amsterdam-grand-hotel-krasnapolsky"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="relative inline-flex transform items-center justify-center overflow-hidden rounded-lg bg-[#E84898] px-6 py-3 text-white transition-all duration-300 hover:-translate-y-[2px] hover:bg-[#9C3066]"
+                >
+                  Visit Official Website
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-[#E04592]/20 bg-[#210A16]">
+      <div class="container mx-auto px-6 py-12">
+        <div class="grid grid-cols-1 items-center gap-12 md:grid-cols-2">
+          <!-- Support links -->
+          <div class="space-y-8">
+            <div class="text-center md:text-left">
+              <h3 class="mb-2 text-xl font-bold text-[#E04592]">GamCare</h3>
+              <p class="mb-2 text-gray-200">Gambling Support Starts Here</p>
+              <a href="https://gamcare.org.uk" target="_blank" class="text-[#E04592] transition-colors duration-300 hover:text-[#0284c7]">gamcare.org.uk</a>
+            </div>
+            <div class="text-center md:text-left">
+              <h3 class="mb-2 text-xl font-bold text-[#E04592]">GambleAware</h3>
+              <p class="mb-2 text-gray-200">Please gamble responsibly.</p>
+              <a href="https://gambleaware.org" target="_blank" class="text-[#E04592] transition-colors duration-300 hover:text-[#0284c7]">gambleaware.org</a>
+            </div>
+          </div>
+
+          <!-- Brand -->
+          <div class="text-center md:text-right">
+            <div class="flex flex-col items-center justify-center rounded-xl bg-[#40142A] p-6">
+              <img src="https://placehold.co/256x256" alt="[CHANGE_NAME] Logo" class="mb-2 h-auto w-16" />
+              <span class="mb-2 block text-xl font-bold text-[#E04592]">[CHANGE_NAME]</span>
+              <span class="block text-sm text-gray-200">Where Elegance Meets High-Stakes Thrill</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="mt-12 border-t border-[#E04592]/20 pt-8 text-center">
+          <p class="text-sm text-gray-200">&copy; 2025 [CHANGE_NAME] | All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
