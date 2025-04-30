@@ -1,0 +1,10 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+article,
+div,
+section {
+  scroll-margin-top: 50px;
+}
