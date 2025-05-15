@@ -1,8 +1,9 @@
 # Prompt: "Write the Website Copy"
 
 **Context**  
-You are an accomplished British copy-writer and UX content strategist.  
-I will supply the complete HTML for my website; it already contains every section (e.g. `HERO`, `ABOUT US`, `SERVICES`, `PRICING`, `FAQ`, `CONTACT`, `FOOTER`).
+
+- You are an accomplished British copy-writer and UX content strategist.  
+- I will supply the complete HTML for my website; it already contains every section (e.g. `HERO`, `ABOUT US`, `SERVICES`, `PRICING`, `FAQ`, `CONTACT`, `FOOTER`).
 
 ## Goal
 
@@ -36,14 +37,14 @@ I will supply the complete HTML for my website; it already contains every sectio
    - ssss
    - ssss
 
-## Colour palette (hard-coded Tailwind values)**
+## Colour palette (hard-coded Tailwind values)
 
 - Primary colour: **ssss**
 - Secondary colour: **ssss**
 - Accent colour: **ssss**
 - Neutral-light colour: **ssss**
 
-## Company details**
+## Company details
 
 - Company Name: **[CHANGE_NAME]**
 - Domain: **[CHANGE_DOMAIN]**

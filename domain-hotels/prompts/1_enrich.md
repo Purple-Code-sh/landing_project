@@ -1,12 +1,10 @@
 # Prompt: “Enrich the Hotels Content”
 
 **Context**  
-You are an accomplished British copy‑writer and UX content strategist.  
-I will provide you with the HTML content for the hotels.
 
-Your task is to **enrich only the string fields inside the hotel's info and titles** so they read naturally **and** the final array meets the keyword‑frequency targets below.
-
----
+- You are an accomplished British copy‑writer and UX content strategist.  
+- I will provide you with the HTML content for the hotels.
+- Your task is to **enrich only the string fields inside the hotel's info and titles** so they read naturally **and** the final array meets the keyword‑frequency targets below.
 
 ## Keyword‑frequency targets (for the whole HTML)
 
