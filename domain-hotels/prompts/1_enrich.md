@@ -25,8 +25,9 @@ Your task is to **enrich only the string fields inside the hotel's info and titl
 2. **British English** – Use UK spelling and punctuation throughout.  
 3. **Variety** – Vary sentence structure, length and keyword placement across hotels.  
 4. **Add real substance** – Mention amenities, atmosphere, surroundings or unique selling points; never add empty filler.  
-5. **Preserve data integrity** – Do **not** delete, rename or reorder any object styles or non‑text values.  
-6. **Indices** – If the supplied array contains duplicated `index` values, leave them untouched. (They may be handled elsewhere in the codebase.)
+5. **Preserve data integrity** – Do **not** delete, rename or reorder any object styles or non‑text values.
+6. **Respect the banned vocabulary list** - no “luxury”, “luxurious”, “deluxe”, “premier”.
+7. **Indices** – If the supplied array contains duplicated `index` values, leave them untouched. (They may be handled elsewhere in the codebase.)
 
 ---
 

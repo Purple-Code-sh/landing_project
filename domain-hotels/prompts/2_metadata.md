@@ -1,12 +1,13 @@
 ## Prompt: "Generate Metadata"
 
 **Goal**
-Help me to create a better metada for the page, considering our specific topic **[YOUR_SPECIFYC_TOPIC]**.
+Help me to create a better metada for the page, considering our specific topic **Dutch casino hotels and resorts**.
 Use the company details provided and the structure in the example, please.
 
 **Be sure to use the Company details**.
    - Change the title to match the topic and our services in a better way, maintaining the professional tone. Don't use the specifyc topic as the title, be more creative.
    - If there are any placeholders, fields (e.g., `[change]`), replace them with the company details.
+   - Respect the banned vocabulary list (no “luxury”, “luxurious”, “deluxe”, “premier”).
 
 ### Output instructions — **STRICT**
 
@@ -24,7 +25,7 @@ Use the company details provided and the structure in the example, please.
 - Domain: **[CHANGE_DOMAIN]**
 - Address: **[CHANGE_ADDRESS]**
 - Email: **support@[CHANGE_DOMAIN]**
-- Date: **April 28, 2025**
+- Date: **May 15, 2025**
 
 
 ## Metadata Template Example:
@@ -34,8 +35,8 @@ Use the company details provided and the structure in the example, please.
 <meta name="description" content="[change_NAME] offers professional remote home styling and color matching services. Upload room photos to receive custom color palettes, paint suggestions, and expert styling tips tailored to your space." />
 <meta name="author" content="[change_NAME]" />
 <!-- Creation and modification dates -->
-<meta name="date" content="2025-04" />
-<meta name="revised" content="2025-04" />
+<meta name="date" content="2025-05" />
+<meta name="revised" content="2025-05" />
 <!-- Keywords -->
 <meta name="keywords" content="remote home styling, color matching service, custom color palettes, paint suggestions, room styling tips, [change_NAME], interior design help, online home consultation, house flipping design, new homeowner design, home color flow planning, custom mood boards" />
 <!-- Open Graph for social media sharing -->

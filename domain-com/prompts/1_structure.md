@@ -47,7 +47,7 @@ I will supply the complete HTML for my website; it already contains every sectio
 - Domain: **[CHANGE_DOMAIN]**
 - Address: **[CHANGE_ADDRESS]**
 - Email: **support@[CHANGE_DOMAIN]**
-- Date: **April 28, 2025**
+- Date: **May 15, 2025**
 
 ---
 
@@ -69,8 +69,8 @@ I will supply the complete HTML for my website; it already contains every sectio
    - Explicitly state whether services are **virtual-only, on-site-only, or hybrid (both)**.
 
 4. **Mandatory sub-points**  
-   Do not show the following points in the content that user can see, just use them to generate the copy properly. They are important for undestanding the topic and the service.
-
+   Do not show the following points in the content that user can see, just use them to generate the copy properly.
+   They are important for undestanding the topic and the service.
    - **1. What it is**
    - **2. Why it works**
    - **3. Monetisation**
@@ -87,12 +87,12 @@ I will supply the complete HTML for my website; it already contains every sectio
 
    ```html
    <!-- entire, updated HTML goes here -->
-   ```
-
+   
 2. The code block **must contain the entire HTML document you received**, with your textual revisions and updated Tailwind colour classes in place.
 
 3. Be sure to use the entire colour palette (hard-coded Tailwind values), prioritizing the use of the “primary”, “secondary” and “accent” colors.
 
-4. **Do not** output anything—no explanations, no extra code blocks, no stray characters—_before_ the opening `html fence or *after* the closing ` fence.
+4. **Do not** output anything—no explanations, no extra code blocks, no stray characters—*before* the opening ```html fence or *after* the closing ``` fence.
+
 
 _Remember: alter only the text and the specified Tailwind colour utilities; preserve every other part of the markup._

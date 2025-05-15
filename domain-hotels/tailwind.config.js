@@ -10,24 +10,11 @@ export default {
         md: '2rem',
         lg: '2.5rem',
         xl: '3rem',
-        '2xl': '4rem',
       },
     },
     extend: {
       colors: {
-        primary: {
-          50: '#',
-          100: '#',
-          200: '#',
-          300: '#',
-          400: '#',
-          500: '#',
-          600: '#',
-          700: '#',
-          800: '#',
-          900: '#',
-          950: '#',
-        },
+        primary: '#000000',
       },
       textShadow: {
         DEFAULT: '2px 2px 4px rgba(0, 0, 0, 0.5)',
