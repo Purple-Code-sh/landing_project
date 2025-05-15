@@ -1,10 +1,10 @@
-## Prompt: "Write the Website Copy"
+# Prompt: "Write the Website Copy"
 
 **Context**  
 You are an accomplished British copy-writer and UX content strategist.  
 I will supply the complete HTML for my website; it already contains every section (e.g. `HERO`, `ABOUT US`, `SERVICES`, `PRICING`, `FAQ`, `CONTACT`, `FOOTER`).
 
-**Goal**
+## Goal
 
 1. Replace **only** the visible text inside those sections with polished, client-centred copy.
 2. Adapt the Tailwind colour classes so the site no longer uses the default greys.
@@ -12,9 +12,11 @@ I will supply the complete HTML for my website; it already contains every sectio
    - Insert each colour **hard-coded** using Tailwind’s arbitrary-value syntax, e.g. `bg-[#123456]`, `text-[#ABCDEF]`, `border-[#FEDCBA]`.
    - Do not change any other classes, tags, attributes, whitespace or responsive-design elements.
 
-**Website topic**: **[YOUR_SPECIFIC_TOPIC]**
+## Website topic
 
-**Topic description**
+**[YOUR_SPECIFIC_TOPIC]**
+
+### Topic description
 
 1. What it is
 
@@ -34,14 +36,14 @@ I will supply the complete HTML for my website; it already contains every sectio
    - ssss
    - ssss
 
-**Colour palette (hard-coded Tailwind values)**
+## Colour palette (hard-coded Tailwind values)**
 
 - Primary colour: **ssss**
 - Secondary colour: **ssss**
 - Accent colour: **ssss**
 - Neutral-light colour: **ssss**
 
-**Company details**
+## Company details**
 
 - Company Name: **[CHANGE_NAME]**
 - Domain: **[CHANGE_DOMAIN]**
@@ -49,9 +51,7 @@ I will supply the complete HTML for my website; it already contains every sectio
 - Email: **support@[CHANGE_DOMAIN]**
 - Date: **May 15, 2025**
 
----
-
-### Writing brief
+## Writing brief
 
 1. **Tone & Voice**
 
@@ -81,18 +81,20 @@ I will supply the complete HTML for my website; it already contains every sectio
 
 ---
 
-### Output instructions — **STRICT**
+## Output instructions — **STRICT**
 
 1. **Return exactly one code block** fenced with three back-ticks followed by `html`:
 
    ```html
    <!-- entire, updated HTML goes here -->
-   
+   ```
+
 2. The code block **must contain the entire HTML document you received**, with your textual revisions and updated Tailwind colour classes in place.
 
 3. Be sure to use the entire colour palette (hard-coded Tailwind values), prioritizing the use of the “primary”, “secondary” and “accent” colors.
 
-4. **Do not** output anything—no explanations, no extra code blocks, no stray characters—*before* the opening ```html fence or *after* the closing ``` fence.
+4. **Do not** output anything—no explanations, no extra code blocks, no stray characters—*before* the opening ```html fence or *after* the closing``` fence.
 
+### Remember
 
-_Remember: alter only the text and the specified Tailwind colour utilities; preserve every other part of the markup._
+- alter only the text and the specified Tailwind colour utilities; preserve every other part of the markup

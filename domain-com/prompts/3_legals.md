@@ -1,3 +1,34 @@
+# Instruction
+
+- Generate copy (content) for the **[YOUR_PAGE]** page so that the layout or content mirrors the provided one, but paraphrase any text from that (mantaining the central ideas or legal terms), aligned with **[YOUR_SPECIFYC_TOPIC]**.
+
+## Company details
+
+Use the following information to fill the company details:
+
+- Company Name: **[CHANGE_NAME]**
+- Domain: **[CHANGE_DOMAIN]**
+- Address: **[CHANGE_ADDRESS]**
+- Email: **support@[CHANGE_DOMAIN]**
+- Date: **April 28, 2025**
+
+## Code & Structure
+
+- Only modify content within **[YOUR_PAGE]**.  
+- Retain the existing markup or code structure outside of **[YOUR_PAGE]**.  
+- If there are any placeholders, fields (e.g., `[change]`), or brand references, replace them with the company details.
+
+### Email & Links
+
+- Whenever you mention an email address, present it as an interactive link using the primary color of the website, and ensure it has a hover effect that underlines the text.  
+- Apply the same color style and hover underline to any links directed to other pages.
+
+## Output Format
+
+- Deliver the updated **[YOUR_PAGE]** in the same format or markup as the rest of the code.
+
+## Sample Structure
+
 ```html
 <!doctype html>
 <html lang="en" class="scroll-smooth">
@@ -24,33 +55,9 @@
   </body>
 </html>
 ```
----
 
-**Instruction**  
-Generate copy (content) for the **[YOUR_PAGE]** page so that the layout or content mirrors the provided one, but paraphrase any text from that (mantaining the central ideas or legal terms), aligned with **[YOUR_SPECIFYC_TOPIC]**.
+## Sample Content
 
-Use the following information to fill the company details:
-
-- Company Name: **[CHANGE_NAME]**
-- Domain: **[CHANGE_DOMAIN]**
-- Address: **[CHANGE_ADDRESS]**
-- Email: **support@[CHANGE_DOMAIN]**
-- Date: **May 15, 2025**
-
-  
-**Code & Structure**  
-- Only modify content within **[YOUR_PAGE]**.  
-- Retain the existing markup or code structure outside of **[YOUR_PAGE]**.  
-- If there are any placeholders, fields (e.g., `[change]`), or brand references, replace them with the company details.
-
-**Email & Links**  
-- Whenever you mention an email address, present it as an interactive link using the primary color of the website, and ensure it has a hover effect that underlines the text.  
-- Apply the same color style and hover underline to any links directed to other pages.
-
-**Output Format**  
-- Deliver the updated **[YOUR_PAGE]** in the same format or markup as the rest of the code.
-
-**Sample Content**  
 Here is the sample content that you may use:
 
 [Place your paraphrased text or layout here, following all guidelines above]

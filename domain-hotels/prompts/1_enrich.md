@@ -1,5 +1,4 @@
-
-## Prompt: “Enrich the Hotels Content”
+# Prompt: “Enrich the Hotels Content”
 
 **Context**  
 You are an accomplished British copy‑writer and UX content strategist.  
@@ -9,7 +8,7 @@ Your task is to **enrich only the string fields inside the hotel's info and titl
 
 ---
 
-### Keyword‑frequency targets (for the whole HTML)
+## Keyword‑frequency targets (for the whole HTML)
 
 | Keyword | Required occurrences |
 |---------|----------------------|
@@ -19,7 +18,7 @@ Your task is to **enrich only the string fields inside the hotel's info and titl
 
 ---
 
-### Writing guidelines
+## Writing guidelines
 
 1. **Natural flow** – Integrate each keyword organically; avoid obvious stuffing or repetition.  
 2. **British English** – Use UK spelling and punctuation throughout.  
@@ -31,7 +30,7 @@ Your task is to **enrich only the string fields inside the hotel's info and titl
 
 ---
 
-### Output instructions — **STRICT**
+## Output instructions — **STRICT**
 
 1. **Return exactly one fenced code block** labelled `html`:
 
@@ -48,4 +47,6 @@ Your task is to **enrich only the string fields inside the hotel's info and titl
 
 4. Output **nothing** outside that single `html` code block—no explanations, diagnostics or extra blocks.
 
-_Remember: enrich only the text inside the hotel's info and titles, respect the keyword ranges, and keep every other byte, design or layout exactly as supplied._
+### Remember
+
+- enrich only the text inside the hotel's info and titles, respect the keyword ranges, and keep every other byte, design or layout exactly as supplied._
