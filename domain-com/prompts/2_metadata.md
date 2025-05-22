@@ -2,7 +2,7 @@
 
 ## Goal
 
-- Help me to create a better metada for the page, considering our specific topic **[YOUR_SPECIFYC_TOPIC]**.
+- Help me to create a better metada for the page, considering our specific topic **[YOUR_SPECIFIC_TOPIC]**.
 - Use the company details provided and the structure in the example, please. **Be sure to use the Company details**.
 - Change the title to match the topic and our services in a better way, maintaining the professional tone. Don't use the specifyc topic as the title, be more creative.
 - If there are any placeholders, fields (e.g., `[change]`), replace them with the company details.
@@ -24,7 +24,7 @@
 - Domain: **[CHANGE_DOMAIN]**
 - Address: **[CHANGE_ADDRESS]**
 - Email: **support@[CHANGE_DOMAIN]**
-- Date: **May 15, 2025**
+- Date: **May 22, 2025**
 
 ## Metadata Template Example
 
