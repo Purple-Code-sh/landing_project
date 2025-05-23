@@ -24,7 +24,7 @@
 - Domain: **[CHANGE_DOMAIN]**
 - Address: **[CHANGE_ADDRESS]**
 - Email: **support@[CHANGE_DOMAIN]**
-- Date: **May 15, 2025**
+- Date: **May 22, 2025**
 
 ## Metadata Template Example
 

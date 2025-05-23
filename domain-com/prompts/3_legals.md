@@ -26,6 +26,8 @@ Use the following information to fill the company details:
 ## Output Format
 
 - Deliver the updated **[YOUR_PAGE]** in the same format or markup as the rest of the code.
+- Deliver the full **HTML**. Including doctype, head and body tags.
+- Ensure the updated content is within the `<main>` tag.
 
 ## Sample Structure
 
@@ -36,7 +38,7 @@ Use the following information to fill the company details:
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>[YOUR_PAGE] | [CHANGE_NAME]</title>
-    <link rel="icon" href="/home-page-assets/logo/logo.webp" type="image/png" />
+    <link rel="icon" href="/home-assets/logo/logo.webp" type="image/png" />
 
     <link rel="stylesheet" href="/src/style.css" />
     <link rel="stylesheet" href="/src/main.css" />
