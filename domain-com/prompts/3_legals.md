@@ -1,6 +1,6 @@
 # Prompt: "Write the Legals Page Copy"
 
-- Generate copy (content) for the **[YOUR_PAGE]** page so that the layout or content mirrors the provided one, but paraphrase any text from that (mantaining the central ideas or legal terms), aligned with **[YOUR_SPECIFYC_TOPIC]**.
+- Generate copy (content) for the **[YOUR_PAGE]** page so that the layout or content mirrors the provided one, but paraphrase any text from that (mantaining the central ideas or legal terms), aligned with **[YOUR_SPECIFIC_TOPIC]**.
 
 ## Company details
 
